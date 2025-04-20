@@ -140,7 +140,7 @@ def extract_questions(content, answers):
                     question_item = {
                         "language": "es",
                         "country": "Perú",
-                        "exam_name": "Recopilación de preguntas de Historia de exámenes de admisión a la Universidad Nacional Mayor de San Marcos",
+                        "exam_name": "Solucionario Exámenes de Admisión, Historia del Peru - Universidad Nacional Mayor de San Marcos",
                         "source": "https://www.slideshare.net/slideshow/historia-del-per-recopilacin-ex-adm-unmsm/251464302",
                         "license": "Desconocida",
                         "level": "Acceso a la Universidad",
@@ -172,7 +172,7 @@ def extract_questions(content, answers):
             question_item = {
                 "language": "es",
                 "country": "Perú",
-                "exam_name": "Solucionario Exámenes de Admisión, Historia del Peru -  Universidad Nacional Mayor de San Marcos",
+                "exam_name": "Solucionario Exámenes de Admisión, Historia del Peru - Universidad Nacional Mayor de San Marcos",
                 "source": "https://www.slideshare.net/slideshow/historia-del-per-recopilacin-ex-adm-unmsm/251464302",
                 "license": "Desconocida",
                 "level": "Acceso a la Universidad",

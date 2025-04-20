@@ -1,7 +1,7 @@
 ---
 language:
   - es
-pretty_name: "Preguntas de Historia del Perú - Examen Admisión UNMSM"
+pretty_name: "Corpus de Preguntas de Historia del Perú - Examenes Admisión UNMSM"
 tags:
   - history
   - peru
@@ -10,26 +10,52 @@ tags:
   - question-answering
   - unmsm
   - entrance-exam
-license: "cc-by-4.0"
+license: apache-2.0
 task_categories:
   - question-answering
   - multiple-choice
 size_categories:
   - 1K<n<10K
 multilinguality: "monolingual"
-language_creators:
-  - expert-created
-annotations_creators:
-  - expert-created
-source_datasets:
-  - original
 paperswithcode_id: null
 ---
 
 <div align="center">
-    <img src="somosNLP.svg" width="700"/>
+    <img src="somosNLP.svg" width="400"/>
 </div>
 
-# Preguntas de Historia del Perú - Examen Admisión UNMSM
+# Corpus de Preguntas de Historia del Perú - Examenes Admisión UNMSM
 
 Este dataset contiene preguntas de opción múltiple sobre Historia del Perú extraídas de exámenes de admisión de la Universidad Nacional Mayor de San Marcos (UNMSM) aproximadamente entre 1970 y 2020.
+
+Archivos de referencia utilizados, [aquí](https://github.com/mcdaqc/Corpus-Historia-Peru-ExamenAdmisionUNMSM-MultipleChoice/blob/main/files/data_ocr/cuestionario.pdf)
+
+Para consultar los temas cubiertos en el corpus, [aqui](https://github.com/mcdaqc/Corpus-Historia-Peru-ExamenAdmisionUNMSM-MultipleChoice/blob/main/files/data_clean/categorias.txt)
+
+## Formato del JSON
+
+Cada pregunta en el dataset sigue el siguiente formato:
+
+```json
+{
+  "language": "es",
+  "country": "Perú",
+  "exam_name": "Recopilación de preguntas de Historia de exámenes de admisión a la Universidad Nacional Mayor de San Marcos",
+  "source": "https://www.slideshare.net/slideshow/historia-del-per-recopilacin-ex-adm-unmsm/251464302",
+  "license": "Desconocida",
+  "level": "Acceso a la Universidad",
+  "category_en": "General Concepts of History",
+  "category_original_lang": "CONCEPTOS GENERALES DE HISTORIA",
+  "original_question_num": 1,
+  "question": "La captura de Atahualpa, el rescate exigido, y la muerte del último inca se conoce fundamentalmente a través de:",
+  "options": [
+    "Los cronistas",
+    "La tradición oral indígena.",
+    "La tradición oral española.",
+    "La tradición oral española.",
+    "Los historiadores españoles"
+  ],
+  "answer": 0
+}
+```
+

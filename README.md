@@ -34,6 +34,8 @@ Archivos de referencia utilizados, [aquí](https://github.com/mcdaqc/Corpus-Hist
 
 Para consultar los temas cubiertos en el corpus, [aqui](https://github.com/mcdaqc/Corpus-Historia-Peru-ExamenAdmisionUNMSM-MultipleChoice/blob/main/files/data_clean/categorias.txt)
 
+Dataset en Huggingface Hub, [aqui](https://huggingface.co/datasets/somosnlp-hackathon-2025/PreguntasHistoria-Peru-ExamenAdmisionUNMSM-MultipleChoice)
+
 ## Formato del JSON
 
 Cada pregunta en el dataset sigue el siguiente formato:

@@ -20,11 +20,13 @@ multilinguality: "monolingual"
 paperswithcode_id: null
 ---
 
+# Corpus de Preguntas de Historia del Perú - Examenes Admisión UNMSM
+
 <div align="center">
     <img src="somosNLP.svg" width="400"/>
 </div>
 
-# Corpus de Preguntas de Historia del Perú - Examenes Admisión UNMSM
+
 
 Este dataset contiene preguntas de opción múltiple sobre Historia del Perú extraídas de exámenes de admisión de la Universidad Nacional Mayor de San Marcos (UNMSM) aproximadamente entre 1970 y 2020.
 
